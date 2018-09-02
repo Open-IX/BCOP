@@ -10,7 +10,7 @@ Subject Matter Expert(s) (SME): (name, name, name...)
 Status: (Outline / Draft / BCOP)
 
 The content here within is intended to be original content authored by the Global Network Engineering
-Community (GNEC) “at-large” in an organized, democratic, “bottoms-up” approach._
+Community (GNEC) “at-large” in an organized, democratic, “bottoms-up” approach.
 ```
 
 ## BCOP Summary / Appeal

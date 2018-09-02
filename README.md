@@ -4,6 +4,8 @@ Here we will work together to make the Internet a better place by turning tribal
 
 Start with the Open-IX Document Development Process ([OIX-DDP](https://github.com/Open-IX/BCOP/blob/master/OIX-DDP.md)).
 
+Use the [BCOP Template](https://github.com/Open-IX/BCOP/blob/master/BCOP_Template.md) as the basis for a new document.
+
 ## More Information:
 Our work is facilitated and organized primarily through the [Open-IX BCOP committee](https://www.open-ix.org/cpages/bcop-committee).
 

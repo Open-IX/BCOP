@@ -5,8 +5,8 @@ IX Connections
 Date: 8 October, 2011
 Shepard: NEEDED
 Subject Matter Expert(s) (SME): Michael K. Smith, Florian Hibler
-Status: Draft *(Ratified as a BCOP at the IPBCOP session of NANOG 54 on February 6, 2012.)*
-BCOP Subject: Public peering exchange participant/member/client configurtion
+Status: Draft *(Ratified /possibly different version/ as a BCOP at the IPBCOP session of NANOG 54 on February 6, 2012.)*
+BCOP Subject: Public peering exchange participant/member/client configuration
 
 This document is intended to be original content authored by the Global Network Engineering Community 
 (GNEC) "at-large" in an organized, democratic, "bottoms-up" approach.
@@ -34,17 +34,11 @@ This BCOP uses the following standard language throughout.
 
 1) **Direct connection to the Exchange** – when at all possible, a Participant should connect directly from a Layer 3 interface into the shared switch fabric of the Exchange. A direct connection minimizes the likelihood of any extraneous broadcasts or other not allowed control traffic traversing between autonomous Layer 2 environments. Specifically, direct switch-to-switch connections between the Exchange and Participant should be avoided. The potential for impacting the entire fabric and all Participants through spurious Layer 2 events is significantly higher than with a direct connection.
 
-	[File:Exptimg1.jpg](http://nabcop.org/index.php?title=Special:Upload&wpDestFile=Exptimg1.jpg "File:Exptimg1.jpg")
-
 2) **Remote Peering connection to the Exchange** - the Participant is not placing network equipment in a facility enabled by the Exchange (usually not even in the same town or country). Cost savings is the main driver for this configuration. Transport is usually done via MPLS transport (transparent Layer 2 connection) with carriers accredited by the Exchange. Those carriers have to ensure they are compatible with the Exchange’s network (most of the requirements are stated in Section 2 Data Link and Network Layer Guidelines).
-
-	[File:Exptimg2.jpg](http://nabcop.org/index.php?title=Special:Upload&wpDestFile=Exptimg2.jpg "File:Exptimg2.jpg")
 
 	a. Some Exchanges also offer Reseller ports (in combination with Remote Peering). An accredited carrier connects one port to the Exchange and sells multiple Remote Peering connection on this link. Reselling enables Participants to become a member via the carrier at the Exchange without the need of paying for a direct connection to the Exchange.
 
 	*￼Example: If the accredited carrier gets one 10G connection, he is allowed to sell 10 times 1 Gbps, 100 times 100 Mbps or 1000 times 10 Mbps connections to potential Participants. However, the reseller port must not be oversubscribed.*
-
-	[File:Exptimg3.jpg](http://nabcop.org/index.php?title=Special:Upload&wpDestFile=Exptimg3.jpg "File:Exptimg3.jpg")
 
 3) ￼**Confirm transmission characteristics of Layer 1 connectivity** – when connecting to an Exchange for the first time, it is recommended to take a set of baseline readings to use for later comparisons ￼in the event of link issues. Specifically, link integrity should be verified and recorded.
 

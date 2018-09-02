@@ -18,7 +18,7 @@ This BCOP aims to provide general IPv6 subnetting guidelines that can be followe
 ## BCOP Background / History
 Due primarily to the lack of a need for the scarcity mentality inherent in IPv4 address planning, IPv6 subnetting brings with it a new paradigm that needs to be understood by network operators looking to roll out IPv6 networks, either purely greenfield or alongside current IPv4 networks (new logical networks sharing common infrastructure). This paradigm shift has prompted the Global Network Engineering Community (GNEC) to repeatedly request that the BCOP for IPv6 subnetting be defined and documented.
 
-## BCOP
+## BCOP Specifics
 
 ### 1. Every individual network segment requires at a minimum, one /64 prefix
 A /64 is an IPv6 subnet which provides 64 network bits and 64 host bits. Regardless of the number of hosts on an individual LAN or WAN segment, every multi-access network (non-point-to-point) requires at least one /64 prefix. The IPv6 Addressing Architecture ([RFC 4291](https://tools.ietf.org/html/rfc4291))  requires that all unicast addresses (that do not begin in binary 000) use a 64 bit Interface Identifier  constructed in Modified EUI-64  format.  This has ensured that the /64 prefix become the de-facto standard minimum prefix size. 

@@ -18,10 +18,17 @@ Technology changes. It’s changing faster every day. Network and Internet techn
 
 ### Your Role
 1) Use the existing BCOPs as references, for yourself, those who work with you, and elsewhere in your network. Link to them and tell other network engineers about them!
+    * [BCOP - IPv6 Subnetting](https://github.com/Open-IX/BCOP/tree/master/IPv6_Subnetting)
+    * [BCOP - IX Connections](https://github.com/Open-IX/BCOP/tree/master/IX_Connections)
 
-2) Join in and comment on the current draft BCOPs under development.
+2) Join in and comment on the current Draft BCOPs under development.
+    * [BCOP - DDoS Response](https://github.com/Open-IX/BCOP/tree/master/DDoS_Response)
+    * [BCOP - IPv6 Peering](https://github.com/Open-IX/BCOP/tree/master/IPv6_Peering)
+    * [BCOP - IPv6 Security](https://github.com/Open-IX/BCOP/tree/master/IPv6_Security)
+    * [BCOP - eBGP Configuration](https://github.com/Open-IX/BCOP/tree/master/eBGP_Configuration)
 
 3) Create a new BCOP and work with the Global Network Engineering Community (GNEC) to complete it and have it ratified as an official BCOP!
+    * Join us on Slack: [Open-IX.slack.com](https://open-ix.slack.com/messages/CCKMX8XPV/) - in the **#bcop** channel.
 
 ## Even More:
 We've been at this a long time, there's [this post on the ARIN blog](https://teamarin.net/2012/05/17/bcop-building-a-living-library-for-network-engineers-by-network-engineers/) if you want some history (just ignore the old links).

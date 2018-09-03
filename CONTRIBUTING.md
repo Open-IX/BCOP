@@ -6,4 +6,4 @@ Use the [BCOP Template](https://github.com/Open-IX/BCOP/blob/master/BCOP_Templat
 
 All documents MUST be set to status of **Draft** until ratified as an official **BCOP** in an approved public forum. If an existing **BCOP** is updated, it MUST be reverted to **Draft** status until the new version is ratified in an approved public forum.
 
-*((mailing list, etc to go here))*
+Join us on Slack: [Open-IX.slack.com](https://open-ix.slack.com/messages/CCKMX8XPV/) - in the **#bcop** channel.

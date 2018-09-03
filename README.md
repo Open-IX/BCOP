@@ -4,9 +4,13 @@ Here we will work together to make the Internet a better place by turning tribal
 
 Start with the Open-IX Document Development Process ([OIX-DDP](https://github.com/Open-IX/BCOP/blob/master/OIX-DDP.md)).
 
-Use the [BCOP Template](https://github.com/Open-IX/BCOP/blob/master/BCOP_Template.md) as the basis for a new document.
+Check the [List of Appeals](https://github.com/Open-IX/BCOP/blob/master/Appeals.md) for ideas on BCOPs to start work on, or to add your own request for a new BCOP to be documented.
+
+When you're ready, use the [BCOP Template](https://github.com/Open-IX/BCOP/blob/master/BCOP_Template.md) as the basis for a new BCOP document.
 
 ## More Information:
+Say it: *B-C-O-P (bee cee oh pee)*
+
 Our work is facilitated and organized primarily through the [Open-IX BCOP committee](https://www.open-ix.org/cpages/bcop-committee).
 
 ### Our Goals

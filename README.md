@@ -8,7 +8,7 @@ Check the [List of Appeals](https://github.com/Open-IX/BCOP/blob/master/Appeals.
 
 When you're ready, use the [BCOP Template](https://github.com/Open-IX/BCOP/blob/master/BCOP_Template.md) as the basis for a new BCOP document.
 
-Don't forget to join the [mailing list](http://lists.open-ix.org/mailman/listinfo/bcop) to be part of the conversation!
+**Don't forget to join the [mailing list](http://lists.open-ix.org/mailman/listinfo/bcop) to be part of the conversation!**
 
 ## More Information:
 Say it: *B-C-O-P (bee cee oh pee)*

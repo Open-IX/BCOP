@@ -8,6 +8,8 @@ Check the [List of Appeals](https://github.com/Open-IX/BCOP/blob/master/Appeals.
 
 When you're ready, use the [BCOP Template](https://github.com/Open-IX/BCOP/blob/master/BCOP_Template.md) as the basis for a new BCOP document.
 
+Don't forget to join the [mailing list](http://lists.open-ix.org/mailman/listinfo/bcop) to be part of the conversation!
+
 ## More Information:
 Say it: *B-C-O-P (bee cee oh pee)*
 
@@ -32,6 +34,7 @@ Technology changes. It’s changing faster every day. Network and Internet techn
     * [BCOP - eBGP Configuration](https://github.com/Open-IX/BCOP/tree/master/eBGP_Configuration)
 
 3) Create a new BCOP and work with the Global Network Engineering Community (GNEC) to complete it and have it ratified as an official BCOP!
+    * Join the [mailing list](http://lists.open-ix.org/mailman/listinfo/bcop)
     * Join us on Slack: [Open-IX.slack.com](https://open-ix.slack.com/messages/CCKMX8XPV/) - in the **#bcop** channel.
 
 ## Even More:

@@ -16,7 +16,7 @@ This document is intended to be original content authored by the Global Network 
 This document describes the physical and network components that comprise the best current operational practices for connecting to a public peering exchange point. It also provides general configuration parameters and guidelines, but does not include vendor-specific configuration information.
 
 ## BCOP Background / History
-There are a multitude of exchange points around the world each of which has a set of independent providers using a common exchange fabric to connect and pass traffic to one another. Although there are always specific configuration requirements for particular exchange points, there are also common configuration parameters that, if used, will add to the stability of any exchange. This BCOP lays out the guidelines that should apply in most situations, providing a foundation for ￼Exchange-specific requirements, but not superseding them. The specific rules of any exchange must be ￼followed even when contrary to the guidelines specified in the BCOP document.
+There are a multitude of exchange points around the world each of which has a set of independent providers using a common exchange fabric to connect and pass traffic to one another. Although there are always specific configuration requirements for particular exchange points, there are also common configuration parameters that, if used, will add to the stability of any exchange. This BCOP lays out the guidelines that should apply in most situations, providing a foundation for Exchange-specific requirements, but not superseding them. The specific rules of any exchange must be followed even when contrary to the guidelines specified in the BCOP document.
 
 ## BCOP Specifics
 
@@ -38,15 +38,15 @@ This BCOP uses the following standard language throughout.
 
 	a. Some Exchanges also offer Reseller ports (in combination with Remote Peering). An accredited carrier connects one port to the Exchange and sells multiple Remote Peering connection on this link. Reselling enables Participants to become a member via the carrier at the Exchange without the need of paying for a direct connection to the Exchange.
 
-	*￼Example: If the accredited carrier gets one 10G connection, he is allowed to sell 10 times 1 Gbps, 100 times 100 Mbps or 1000 times 10 Mbps connections to potential Participants. However, the reseller port must not be oversubscribed.*
+	*Example: If the accredited carrier gets one 10G connection, he is allowed to sell 10 times 1 Gbps, 100 times 100 Mbps or 1000 times 10 Mbps connections to potential Participants. However, the reseller port must not be oversubscribed.*
 
-3) ￼**Confirm transmission characteristics of Layer 1 connectivity** – when connecting to an Exchange for the first time, it is recommended to take a set of baseline readings to use for later comparisons ￼in the event of link issues. Specifically, link integrity should be verified and recorded.
+3) **Confirm transmission characteristics of Layer 1 connectivity** – when connecting to an Exchange for the first time, it is recommended to take a set of baseline readings to use for later comparisons in the event of link issues. Specifically, link integrity should be verified and recorded.
 
-	a. ￼*Fiber Connection* – Power readings on transmit and receive should be taken with an ￼Optical Power Meter (OPM) and recorded for reference. Any questionable readings ￼should be addressed before putting traffic on the link.
+	a. *Fiber Connection* – Power readings on transmit and receive should be taken with an Optical Power Meter (OPM) and recorded for reference. Any questionable readings should be addressed before putting traffic on the link.
 	b. *Copper Connection* - Continuity testing should be performed and output recorded for reference. As with fiber, any questionable readings should be addressed before putting traffic on the link.
-	c. ￼*Both Fiber and Copper Connections* – once the physical connection has been established, further baseline data should be gathered at the interface. Specifically, a lack of errors (CRC/Framing/Input/Output/Drops, etc.) should be observed and, if not, addressed before putting traffic on the link.
+	c. *Both Fiber and Copper Connections* – once the physical connection has been established, further baseline data should be gathered at the interface. Specifically, a lack of errors (CRC/Framing/Input/Output/Drops, etc.) should be observed and, if not, addressed before putting traffic on the link.
 
-4. **￼Properly label connections** – all connection components should be properly labeled for easy identification using your standard naming conventions. This includes fiber/copper runs, patch ￼panels, interfaces and connected devices.
+4. **Properly label connections** – all connection components should be properly labeled for easy identification using your standard naming conventions. This includes fiber/copper runs, patch panels, interfaces and connected devices.
 
 5. **Create an As-Built of your connection** - a current configuration document will become invaluable in an outage or for knowledge transfer, and should include the following:
 
@@ -55,16 +55,16 @@ This BCOP uses the following standard language throughout.
 
 ### Section 2: Data Link and Network Layer Guidelines
 
-1) **Properly configured IP and subnet mask (both IPv4 and IPv6)** – the appropriate subnet mask must be configured on your connected interface. It is not safe to assume that the mask configuration is ￼similar across different Exchanges.
+1) **Properly configured IP and subnet mask (both IPv4 and IPv6)** – the appropriate subnet mask must be configured on your connected interface. It is not safe to assume that the mask configuration is similar across different Exchanges.
 
 2) **Ethertypes** - Frames forwarded through an Exchange must only have one of the following types:
 	a. 0x0800 – IPv4
 	b. 0x0806 – ARP
 	c. 0x86dd – IPv6
 
-3) ￼All broadcast and Non-IP protocols must be disabled facing the exchange fabric, or filtered in some way when disabling is not an option. These include, but are not limited to forwarded ￼DHCP, MOP, Ethernet Keepalives, NetBIOS and IPv6 Router Advertisements.
+3) All broadcast and Non-IP protocols must be disabled facing the exchange fabric, or filtered in some way when disabling is not an option. These include, but are not limited to forwarded DHCP, MOP, Ethernet Keepalives, NetBIOS and IPv6 Router Advertisements.
 
-4) ￼All proprietary discovery protocols (CDP, FDP, etc.) must be disabled on exchange-facing interfaces.
+4) All proprietary discovery protocols (CDP, FDP, etc.) must be disabled on exchange-facing interfaces.
 
 5) IP Redirects must be disabled on exchange-facing interfaces.
 

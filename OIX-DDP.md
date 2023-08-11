@@ -96,7 +96,7 @@ The OIX DDP itself may only be changed by the Open-IX Board of Directors after a
 
 **Standard** – A document that reflects uniform specifications for data transfer and physical connectivity that creates resiliency to improve reliability of Internet interconnection. Organizations can be certified to comply with OIX Standards.
 
-**Best Current Operational Practice (BCOP)** - A document that reflects an aspect of Internet Engineering (e.g., Sub-netting), is sought after by the GNEC, is worked on by the GNEC, and is ultimately published on the OIX website (open-ix.org).
+**Best Current Operational Practice (BCOP)** - A document that reflects an aspect of Internet Engineering (e.g., Sub-netting), is sought after by the GNEC, is worked on by the GNEC, and is ultimately published on the OIX website (https://oix.org).
 
 **OIX DDP** - The Development Process, see section 2 of this document, which the Open-IX community has adopted to create and publish all documents.
 

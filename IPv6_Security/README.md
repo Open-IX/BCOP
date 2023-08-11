@@ -10,4 +10,4 @@ Next steps should include adding context at least, and converting to give advice
 
 ***Status:** This is a Draft BCOP and needs further development.*
 
-Full text is in [BCOP-IPv6_Security](https://github.com/Open-IX/BCOP/blob/master/IPv6_Security/BCOP-IPv6_Security.md)
+Full text is in [BCOP-IPv6_Security](https://github.com/Open-IX/BCOP/blob/main/IPv6_Security/BCOP-IPv6_Security.md)

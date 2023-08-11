@@ -10,4 +10,4 @@ Next Steps:
 
 ***Status:** This is a Draft BCOP in need of further development.*
 
-Full text is in [BCOP - eBGP Configuration](https://github.com/Open-IX/BCOP/blob/master/eBGP_Configuration/BCOP-eBGP_Configuration.md)
+Full text is in [BCOP - eBGP Configuration](https://github.com/Open-IX/BCOP/blob/main/eBGP_Configuration/BCOP-eBGP_Configuration.md)

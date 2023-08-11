@@ -6,7 +6,7 @@ Due primarily to the lack of a need for the scarcity mentality inherent in IPv4 
 
 **Status:** *This document was ratified as a BCOP at the IPBCOP session of NANOG 54 on February 6, 2012.*
 
-Full text of BCOP in [BCOP-IPv6_Subnetting](https://github.com/Open-IX/BCOP/blob/master/IPv6_Subnetting/BCOP-IPv6_Subnetting.md).
+Full text of BCOP in [BCOP-IPv6_Subnetting](https://github.com/Open-IX/BCOP/blob/main/IPv6_Subnetting/BCOP-IPv6_Subnetting.md).
 
 ## More:
 More about the paradigm shift needed to understand IPv6 subnetting available in this blog post:

@@ -30,7 +30,7 @@ While there are scenarios where it may be possible, or even advisable, to avoid 
 ### 2.	Only subnet on nibble boundaries
 A nibble boundary is a network mask which aligns on a 4-bit boundary. Nibble boundaries should be used to provide more human-readable addressing. This improves operational efficiency and reduces mistaken configuration by making the individual prefixes more recognizable and easier to understand sequentially. This is illustrated with several examples in Figure 1 below. As you can see in this example, the nibble aligned prefixes count upwards in a very predictable and obvious manner, the non-nibble aligned prefixes provide a much less apparent and easy to predict pattern. The latter often results in a higher tendency towards potentially costly "fat finger" mistakes.
 
-|![Nibbles](https://raw.githubusercontent.com/Open-IX/BCOP/master/IPv6_Subnetting/Images/Figure1.png)|
+|![Nibbles](https://raw.githubusercontent.com/Open-IX/BCOP/main/IPv6_Subnetting/Images/Figure1.png)|
 |:---:|
 |*Figure 1 - Examples of Nibble and Non-Nibble Boundaries*|
 
@@ -46,7 +46,7 @@ single pool within the addressing hierarchy (regardless of the utilization in ot
 ### 3.	Implement a hierarchical addressing plan to allow for aggregation
 In a typical network, this equates to at least three levels of hierarchy; site, region and AS. A site can be a PoP, a building, a floor, or any other logical layer3 aggregation point within your network. In general, each site should receive one /48.
 
-|![Hierarchy](https://raw.githubusercontent.com/Open-IX/BCOP/master/IPv6_Subnetting/Images/Figure2.png)|
+|![Hierarchy](https://raw.githubusercontent.com/Open-IX/BCOP/main/IPv6_Subnetting/Images/Figure2.png)|
 |:---:|
 |*Figure 2 - Example 3-level Hierarchy*|
 
@@ -85,7 +85,7 @@ Below are two examples to further illustrate this practice.
 
 >In some networks there may be individual regions or sites that are so disparate in size or growth rate that this practice would result in very low (<50%) prefix utilization. This situation should be avoided through network design wherever possible. In extreme cases which cannot be avoided, it is recommended that operators take a "best fit" approach and simply allocate multiple prefixes to the largest or fastest growing sites or regions (e.g. choose a /44 for the regional level prefix and allocate two /44 to the over-sized region). It should be understood that this has a negative impact on route aggregation.
  
-|![Campus](https://raw.githubusercontent.com/Open-IX/BCOP/master/IPv6_Subnetting/Images/Figure3.png)|
+|![Campus](https://raw.githubusercontent.com/Open-IX/BCOP/main/IPv6_Subnetting/Images/Figure3.png)|
 |:---:|
 |*Figure 3 - Example multi-campus network*|
 
@@ -97,7 +97,7 @@ Figure 4 illustrates an example of a residential internet Service Provider (ISP)
 
 Each of the ISPs Points of Presence (PoP) serves a different number of MDUs and SFHs. For example, the area served by PoP 3 contains 50 MDUs and 150,000 SFHs. Adding up the direct need we can see that to allocate a /48 to each of the 50 MDUs, this provider needs at least a /42. To allocate a /56 to each of the 150,000 SFHs, they need at minimum a /38. This aggregate demand, rounded up to a nibble boundary, determines the need for a /36 to serve this PoP (don't forget to add the /48 for infrastructure). Since none of the other 3 PoPs require more than a /36, that was chosen as the standard PoP prefix length. Since there are only 4 PoPs in this ISPs network, they set their AS allocation at the next nibble boundary; a /32.
 
-|![ISP](https://raw.githubusercontent.com/Open-IX/BCOP/master/IPv6_Subnetting/Images/Figure4.png)|
+|![ISP](https://raw.githubusercontent.com/Open-IX/BCOP/main/IPv6_Subnetting/Images/Figure4.png)|
 |:---:|
 |*Figure 4 - Example residential ISP network*|
 

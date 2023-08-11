@@ -2,18 +2,18 @@
 
 Here we will work together to make the Internet a better place by turning tribal knowledge into public knowledge through a series of peer-reviewed living documents.
 
-Start with the Open-IX Document Development Process ([OIX-DDP](https://github.com/Open-IX/BCOP/blob/master/OIX-DDP.md)).
+Start with the Open-IX Document Development Process ([OIX-DDP](https://github.com/Open-IX/BCOP/blob/main/OIX-DDP.md)).
 
-Check the [List of Appeals](https://github.com/Open-IX/BCOP/blob/master/Appeals.md) for ideas on BCOPs to start work on, or to add your own request for a new BCOP to be documented.
+Check the [List of Appeals](https://github.com/Open-IX/BCOP/blob/main/Appeals.md) for ideas on BCOPs to start work on, or to add your own request for a new BCOP to be documented.
 
-When you're ready, use the [BCOP Template](https://github.com/Open-IX/BCOP/blob/master/BCOP_Template.md) as the basis for a new BCOP document.
+When you're ready, use the [BCOP Template](https://github.com/Open-IX/BCOP/blob/main/BCOP_Template.md) as the basis for a new BCOP document.
 
 **Don't forget to join the [mailing list](https://groups.google.com/a/oix.org/g/bcop/about) to be part of the conversation!**
 
 ## More Information:
 Say it: *B-C-O-P (bee cee oh pee)*
 
-Our work is facilitated and organized primarily through the [Open-IX BCOP committee](https://www.open-ix.org/cpages/bcop-committee).
+Our work is facilitated and organized primarily through the [Open-IX BCOP committee](https://www.oix.org/about/best-current-operational-practices-bcop-committee/).
 
 ### Our Goals
 1)  **Collect current information from active and experienced engineers.**  
@@ -24,14 +24,14 @@ Technology changes. It’s changing faster every day. Network and Internet techn
 
 ### Your Role
 1) Use the existing BCOPs as references, for yourself, those who work with you, and elsewhere in your network. Link to them and tell other network engineers about them!
-    * [BCOP - IPv6 Subnetting](https://github.com/Open-IX/BCOP/tree/master/IPv6_Subnetting)
-    * [BCOP - IX Connections](https://github.com/Open-IX/BCOP/tree/master/IX_Connections)
+    * [BCOP - IPv6 Subnetting](https://github.com/Open-IX/BCOP/tree/main/IPv6_Subnetting)
+    * [BCOP - IX Connections](https://github.com/Open-IX/BCOP/tree/main/IX_Connections)
 
 2) Join in and comment on the current Draft BCOPs under development.
-    * [BCOP - DDoS Response](https://github.com/Open-IX/BCOP/tree/master/DDoS_Response)
-    * [BCOP - IPv6 Peering](https://github.com/Open-IX/BCOP/tree/master/IPv6_Peering)
-    * [BCOP - IPv6 Security](https://github.com/Open-IX/BCOP/tree/master/IPv6_Security)
-    * [BCOP - eBGP Configuration](https://github.com/Open-IX/BCOP/tree/master/eBGP_Configuration)
+    * [BCOP - DDoS Response](https://github.com/Open-IX/BCOP/tree/main/DDoS_Response)
+    * [BCOP - IPv6 Peering](https://github.com/Open-IX/BCOP/tree/main/IPv6_Peering)
+    * [BCOP - IPv6 Security](https://github.com/Open-IX/BCOP/tree/main/IPv6_Security)
+    * [BCOP - eBGP Configuration](https://github.com/Open-IX/BCOP/tree/main/eBGP_Configuration)
 
 3) Create a new BCOP and work with the Global Network Engineering Community (GNEC) to complete it and have it ratified as an official BCOP!
     * Join the [mailing list](https://groups.google.com/a/oix.org/g/bcop/about)

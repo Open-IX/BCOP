@@ -5,4 +5,4 @@ There are a multitude of exchange points around the world each of which has a se
 
 **Status:** This document *possibly a different version* was ratified as a BCOP at the IPBCOP session of NANOG 54 on February 6, 2012.
 
-Full text in [BCOP - IX Connections](https://github.com/Open-IX/BCOP/blob/master/IX_Connections/BCOP-IX_Connections.md)
+Full text in [BCOP - IX Connections](https://github.com/Open-IX/BCOP/blob/main/IX_Connections/BCOP-IX_Connections.md)

@@ -6,4 +6,4 @@ We (the GNEC) have made many mistakes with IPv4 Peering and Transit configuratio
 
 ***Status:** This is a Draft BCOP in need of further development.*
 
-Full text in [BCOP-IPv6_Peering](https://github.com/Open-IX/BCOP/blob/master/IPv6_Peering/BCOP-IPv6_Peering.md)
+Full text in [BCOP-IPv6_Peering](https://github.com/Open-IX/BCOP/blob/main/IPv6_Peering/BCOP-IPv6_Peering.md)

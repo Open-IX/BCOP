@@ -6,4 +6,4 @@ NANOG members have faced, and continue to deal with Denial of Service attacks in
 
 ***Status:** This is a Draft BCOP in need of further development.*
 
-Full text in [BCOP - DDoS Response](https://github.com/Open-IX/BCOP/blob/master/DDoS_Response/BCOP-DDoS_Response.md).
+Full text in [BCOP - DDoS Response](https://github.com/Open-IX/BCOP/blob/main/DDoS_Response/BCOP-DDoS_Response.md).
